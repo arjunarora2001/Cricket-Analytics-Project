@@ -9,9 +9,9 @@ pandas.set_option('display.expand_frame_repr', False)
 pandas.set_option('display.max_colwidth', None)
 
 # Reading CSV files into program
-rohit_df = pandas.read_csv(r'D:\Python Cricket Projects\Rohit_Sharma_data.csv')
-sehwag_df = pandas.read_csv(r'D:\Python Cricket Projects\Sehwag_data.csv')
-sachin_df = pandas.read_csv(r'D:\Python Cricket Projects\Sachin_data.csv')
+rohit_df = pandas.read_csv(r'https://raw.githubusercontent.com/arjunarora2001/Cricket-Analytics-Project/main/Rohit_Sharma_data.csv')
+sehwag_df = pandas.read_csv(r'https://raw.githubusercontent.com/arjunarora2001/Cricket-Analytics-Project/main/Sehwag_data.csv')
+sachin_df = pandas.read_csv(r'https://raw.githubusercontent.com/arjunarora2001/Cricket-Analytics-Project/main/Sachin_data.csv')
 
 # Converting date into readable form for the IDE
 rohit_df['Date'] = pandas.to_datetime(rohit_df['Date'])
